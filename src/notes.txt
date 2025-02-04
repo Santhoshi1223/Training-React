@@ -1,0 +1,10 @@
+Single page application opens only in single tab whereas multi-page application opens in multiple tabs. 
+There will be no page refreshing or reloading in single page applications, where as it is done in multi-page applications.
+
+What is Virtual DOM?
+
+Definition - Virtual DOM is a virtual representation of a UI which is kept in a memory 
+later synced with Real DOM with the help of a virtual "ReactDOM".
+
+- The updation of real dom with virtual DOM.
+- The entire process of updating VirtualDom with RealDOM is called as "Reconcialtion".
