@@ -21,19 +21,20 @@
 // }
 
 // export default App
+import React from 'react';
+import UseEffectEx from './UseEffectEx';
 
-// import React from 'react'
-// import {CBCStateEx} from './stateexample/CBCStateEx';
-// const App = () => {
-//   return (
-//     <div>CBCStateEx
-//     <CBCStateEx/>
-//     </div>
-//   )
-// }
-// export default App
+function App() {
+  return (
+    <div className="App">
+      <UseEffectEx />
+    </div>
+  );
+}
 
-// 
+export default App;
+
+
 
 // import React from 'react';
 // import FBCStateEx from './FBCStateEx'; // Import the component
@@ -50,17 +51,19 @@
 // export default App;
 
 
-import React from "react";
-import ClassComponent from "./components/ClassComponent";
+// import React from "react";
+// import ClassComponent from "./components/ClassComponent";
 
-function App() {
-  return (
-    <div>
-      <ClassComponent clgName="Malla Reddy University" city="Hyderabad" apply={true}>
-        {/* <p>This is a child prop.</p> */}
-      </ClassComponent>
-    </div>
-  );
-}
+// function App() {
+//   return (
+//     <div>
+//       <ClassComponent clgName="Malla Reddy University" city="Hyderabad" apply={true}>
+//         {/* <p>This is a child prop.</p> */}
+//       </ClassComponent>
+//     </div>
+//   );
+// }
 
-export default App;
+// export default App;
+
+
